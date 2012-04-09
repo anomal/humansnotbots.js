@@ -1,7 +1,7 @@
 HumansNotBots - Easy, Accessible Email Cloaker
 ==============================================
 
-"email AT address DOT com" (without quotes) is converted to a clickable version of email@address.com if JavaScript is enabled.
+"email AT address DOT com" (without quotes) is converted to [email@address.com](mailto:email@address.com) if JavaScript is enabled.
 
 Description
 -----------
@@ -9,9 +9,8 @@ Description
 This email cloaking method: 
 
 * is accessible for people browsing with screen readers (e.g., blind people); 
-* degrades gracefully for browsers without JavaScript; 
-* works just like a normal, clickable email address for browsers with JavaScript enabled; and
-* requires no shortcodes.
+* degrades gracefully for browsers without JavaScript; and
+* works just like a normal, clickable email address for browsers with JavaScript enabled
 
 Email addresses in the form `email AT address DOT com` are converted to a clickable version, [email@address.com](mailto:email@address.com), if JavaScript is enabled. If JavaScript is not enabled (such as for screen readers), then the email address in the form `email AT address DOT com` is still readable to humans.
 
