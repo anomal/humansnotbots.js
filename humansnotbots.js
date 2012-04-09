@@ -1,3 +1,8 @@
+/*
+HumansNotBots by Sophiah (Zing-Ming)
+Released under MIT License
+*/
+
 function HumansNotBots(strAT, strDOT) {
     if (document.getElementsByTagName) {
 	if (strAT == null) {
